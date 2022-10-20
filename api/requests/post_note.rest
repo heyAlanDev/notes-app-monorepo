@@ -1,0 +1,60 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNGQ3OGU4ZmE2NGMwOTVkNTkzN2FjOCIsInVzZXJuYW1lIjoiaGlBbGFuRGV2IiwiaWF0IjoxNjY2MDM0ODA5fQ.ze2OMvU5LoU-M0RPrK0xHllqhq1G3HN7Rq0fBra8SmE
+
+{
+  "content": "Sigueme en twitter a @hiAlanDev",
+  "important": true
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNGQ3OGU4ZmE2NGMwOTVkNTkzN2FjOCIsInVzZXJuYW1lIjoiaGlBbGFuRGV2IiwiaWF0IjoxNjY2MDM0ODA5fQ.ze2OMvU5LoU-M0RPrK0xHllqhq1G3HN7Rq0fBra8SmE
+
+{
+  "content": "otra nota con Authorization y mutando la request ",
+  "important": false
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "Buscame en linkedin @hiAlanDev",
+  "important": true,
+  "userId": "634d78e8fa64c095d5937ac8"
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "Sigueme en IG @hiAlanDev",
+
+  "important": true,
+  "userId": "634d78e8fa64c095d5937ac8"
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "Ten buen dia!!",
+  "important": true,
+  "userId": "634d78e8fa64c095d5937ac8"
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "Corrigiendo error",
+  "important": true,
+  "userId": "634d78e8fa64c095d5937ac8"
+}
+
